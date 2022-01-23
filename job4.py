@@ -12,7 +12,6 @@ GPIO.setup(TRIG, GPIO.OUT)
 GPIO.setup(ECHO, GPIO.IN)
 
 GPIO.output(TRIG, False) 
-GPIO.output(ledPin, GPIO.LOW)
 print("Preparing sensor")
 time.sleep(2)
 
