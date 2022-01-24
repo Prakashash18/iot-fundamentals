@@ -9,7 +9,7 @@ ECHO=24
 ledPin=26
 
 url ="https://api.thingspeak.com/update"
-api_key = "J7ZLU278U2M2XJJU"
+api_key = "YOUR_API_KEY"
 
 print("Distance Measurement in progress")
 
