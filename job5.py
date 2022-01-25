@@ -1,3 +1,9 @@
+
+#Ensure the following two libraries are installed !
+#pip3 install adafruit-circuitpython-dht
+#sudo apt-get install libgpiod2
+
+
 import time
 import board
 import adafruit_dht
