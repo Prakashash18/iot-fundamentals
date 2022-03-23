@@ -3,15 +3,15 @@ import json
 
 # The ThingSpeak Channel ID.
 # Replace <YOUR-CHANNEL-ID> with your channel ID.
-channel_ID = "1682262"
+channel_ID = "<YOUR-CHANNEL-ID>"
 
 # The hostname of the ThingSpeak MQTT broker.
 mqtt_host = "mqtt3.thingspeak.com"
 
 # Your MQTT credentials for the device
-mqtt_client_ID = "DBcuBQM8BSkgOCYmKiEQPSc"
-mqtt_username  = "DBcuBQM8BSkgOCYmKiEQPSc"
-mqtt_password  = "Al6WOpe+WiH12NjlCTKEvITY"
+mqtt_client_ID = "<YOUR_CLIENT_ID>"
+mqtt_username  = "<YOUR_USERNAME>"
+mqtt_password  = "<YOUR_PASSWORD>"
 
 # Create the topic string.
 topic = "channels/" + channel_ID + "/subscribe"
