@@ -1,6 +1,6 @@
 def congratulate(msg):
   msg += " Nice Job !"
-  print(msg)
+print(msg)
   
 print("Time to congratulate people")
 congratulate("Tim")
