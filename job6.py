@@ -37,11 +37,11 @@ while 1:
 
         distance = round(distance,2)
 
-        print("Distance: ",distance, "cm")
+        print "Distance: ",distance, "cm"
 
         GPIO.output(TRIG, False)
 
-        if distance <=6:
+        if distance < 20:
                 print("Object is too close")
                 GPIO.output(ledPin, GPIO.HIGH)
         else:
