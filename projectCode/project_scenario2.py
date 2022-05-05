@@ -1,6 +1,11 @@
 """
 	Author: Prakash Divakaran
-	Code for IoT Fundamentals Project Scenario 1, only turns on LED
+	Code for IoT Fundamentals Project Scenario 2, turns on LED and buzzes buzzer
+	
+	Instructions:
+
+	- Fill in the missing blanks in line 29, 36, 69, 74, 81 with the appropriate code / value
+
 """
 
 import RPi.GPIO as GPIO
@@ -9,14 +14,6 @@ import requests
 
 
 api_key = "Write API Key here !" #update your API Key here
-
-
-"""
-Instructions:
-
-	- Fill in the missing blanks in line 29, 36, 69, 74, 81 with the appropriate code / value
-
-"""
 
 url = "https://api.thingspeak.com/update"
 led_status = 0
