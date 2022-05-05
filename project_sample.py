@@ -4,25 +4,23 @@
 	
 	Instructions:
 	 -There are 15 blanks in this code. Fill them up with the appropriate value/code and run this code to get the 
-	- The blanks are at lines 18, 19, 22, 23, 25, 29, 32, 65, 66, 67, 69, 70, 73, 74, 77
+	- The blanks are at lines 16, 17, 19, 27, 30, 36, 37, 66, 67, 68, 70, 71, 74, 75, 78
 """
 
 import RPi.GPIO as GPIO
 import time
 import requests
 
-
-api_key = "Write API Key here !" #update your API Key here
-
-url = "https://api.thingspeak.com/update"
-led_status = _______
-buzzer_status = ______
 GPIO.setmode(GPIO.BCM)
 
-TRIG= ______
-ECHO= ________
+TRIG = ______
+ECHO = ________
 ledPin=26
 buzzerPin = _______
+
+url = "https://api.thingspeak.com/update"
+api_key = "YOUR_API_KEY" #update your API Key here
+
 
 print("Distance Measurement in progress")
 
@@ -35,6 +33,9 @@ GPIO.setup(__________, GPIO.OUT)
 GPIO.output(TRIG, False) 
 GPIO.output(ledPin, GPIO.LOW)
 GPIO.output(buzzerPin, GPIO.LOW)
+led_status = _______
+buzzer_status = ______
+
 
 print("Preparing sensor")
 time.sleep(2)
@@ -58,7 +59,7 @@ while 1:
 
         distance = round(distance,2)
 
-        print("Distance: ",distance, "cm")
+        print "Distance: ",distance, "cm"
 
         GPIO.output(TRIG, False)
 
@@ -78,6 +79,6 @@ while 1:
 
 
         #JSON payload
-        payload = {'api_key':api_key, 'field1': led_status, 'field2': "", 'field3':""}
+        payload = {'api_key':api_key, 'field1': distance, 'field2': "", 'field3':""}
         requests.get(url, params=payload)
         time.sleep(2)
