@@ -78,6 +78,6 @@ while 1:
 
 
         #JSON payload
-        payload = {'api_key':api_key, 'field1': distance, 'field2': led_status, 'field3':buzzer_status}
+        payload = {'api_key':api_key, 'field1': led_status, 'field2': "", 'field3':""}
         requests.get(url, params=payload)
         time.sleep(2)
