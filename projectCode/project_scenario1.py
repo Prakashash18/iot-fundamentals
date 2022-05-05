@@ -1,6 +1,11 @@
 """
 	Author: Prakash Divakaran
 	Code for IoT Fundamentals Project Scenario 1, only turns on LED
+	
+	Instructions:
+
+	- Fill in the missing blank in line 60 with the appropriate code / value
+
 """
 
 import RPi.GPIO as GPIO
@@ -9,14 +14,6 @@ import requests
 
 
 api_key = "Write API Key here !" #update your API Key here
-
-
-"""
-Instructions:
-
-	- Fill in the missing blank in line 63 with the appropriate code / value
-
-"""
 
 url = "https://api.thingspeak.com/update"
 led_status = 0
