@@ -4,7 +4,7 @@
 	
 	Instructions:
 
-	- Fill in the missing blanks in line 29, 36, 69, 74, 81 with the appropriate code / value
+	- Fill in the missing blanks in line 26, 33, 66, 71, 78 with the appropriate code / value
 
 """
 
