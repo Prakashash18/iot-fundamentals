@@ -6,7 +6,7 @@ import adafruit_dht
 
 dhtDevice = adafruit_dht.DHT11(board.D4)
 url = "https://api.thingspeak.com/update"
-api_key = "API_KEY_HERE"
+api_key = "YOUR_API_KEY"
 
 while True:
     try:
