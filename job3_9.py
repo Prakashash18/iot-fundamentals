@@ -2,5 +2,5 @@ humidity = 22
 
 if humidity > 10:
   print("It's not humid")
-else
+else:
   print("It's humid")
