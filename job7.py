@@ -43,7 +43,7 @@ while 1:
 
         distance = round(distance,2)
 
-        print "Distance: ",distance, "cm"
+        print("Distance: ", distance, "cm")
         if distance < 20:
                 ledStatus = 1
                 GPIO.output(ledPin, GPIO.HIGH)
