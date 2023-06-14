@@ -37,7 +37,7 @@ while 1:
 
         distance = round(distance,2)
 
-        print "Distance: ",distance, "cm"
+        print("Distance: ", distance, "cm")
 
         GPIO.output(TRIG, False)
 
