@@ -4,8 +4,9 @@ To use thde code and install required dependencies
 
 1. Clone the repo to your local directory
 
+`code
 git clone https://github.com/Prakashash18/iot-fundamentals.git
-
+`
 2. Install required dependencies 
 
 cd iot-fundamentals
