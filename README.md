@@ -1,6 +1,6 @@
 # iot-fundamentals
 
-To use thde code and install required dependencies
+## To execute the code and install required dependencies
 
 1. Clone the repo to your local directory
 
@@ -8,5 +8,5 @@ To use thde code and install required dependencies
 
 2. Install required dependencies 
 
-`cd iot-fundamentals
-pip install -r requirements.txt`
+`cd iot-fundamentals`
+`pip install -r requirements.txt`
