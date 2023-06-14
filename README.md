@@ -8,5 +8,4 @@
 
 2. Install required dependencies 
 
-`cd iot-fundamentals`
-`pip install -r requirements.txt`
+`cd iot-fundamentals && pip install -r requirements.txt`
