@@ -13,7 +13,7 @@ while True:
         # Print the values to the serial port
         temperature_c = dhtDevice.temperature
         humidity = dhtDevice.humidity
-        print("Temp: {:.2f} C    Humidity: {}% ".format(temperature_c, humidity)
+        print("Temp: {:.2f} C    Humidity: {}% ".format(temperature_c, humidity))
         payload = {'api_key' : api_key, 'field1' : temperature_c, 'field2': humidity}
         r = requests.get(url, params=payload)
     except RuntimeError as error:
