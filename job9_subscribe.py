@@ -19,5 +19,5 @@ topic = "channels/" + channel_ID + "/subscribe"
 while True:
         msg = subscribe.simple(topic, hostname=mqtt_host, client_id=mqtt_client_ID, auth={'username':mqtt_username, 'password':mqtt_password}) 
         msg2 = json.loads(msg.payload)
-        print("The temperature is {0} degree C and humidity is {1} percent".format(msg2['field1'], msg2['field2'])
+        print("The temperature is {0} degree C and humidity is {1} percent".format(msg2['field1'], msg2['field2']))
 
