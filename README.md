@@ -1,6 +1,13 @@
 # iot-fundamentals
 
-## To execute the code and install required dependencies
+# Two ways to install required dependencies on Rpi 4 Bullseye OS
+
+## First Way
+1. Run `install.sh`
+
+`sh install.sh`
+
+## Second Way
 
 1. Clone the repo to your local directory
 
